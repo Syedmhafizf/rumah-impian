@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- bootstrapp css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- bootstrapp icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar section start -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent">
+        <div class="container">
+            <a class="navbar-brand fs-6 fw-semibold d-flex align-items-center gap-1" href="#">
+                <img src="./assets/Logo Icon.png" alt="Logo" width="30" height="24"
+                    class="d-inline-block align-text-top">
+                Rumah Impian
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-semibold" aria-current="page" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Layanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Fitur</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kontak</a>
+                    </li>
+                </ul>
+                <div>
+                    <button class="button-secondary">Daftar</button>
+                    <button class="button-primary">Masuk</button>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <!-- navbar section end -->
+
+    <!-- hero section start -->
+    <section id="hero" class="d-flex position-relative">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-md-6 my-auto">
+                    <h1 class="fs-1 text-white fw-bold lh-base">Membantu Temukan
+                        Rumah Impian.</h1>
+                    <p class="text-white fs-6 fw-normal"><span class="fw-bold">Rumah Impian</span> hadir untuk temukan
+                        rumah terbaik
+                        untukmu, untuk di jual ataupun di sewa dengan sumber
+                        terpercaya.</p>
+                    <div class="d-flex align-items-center gap-2">
+                        <button class="button-primary">Temukan Rumah</button>
+                        <i class="bi bi-chevron-compact-right fs-4 text-white"></i>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/Hero Image.png" alt="" class="position-absolute end-0 bottom-0">
+        </div>
+
+    </section>
+    <!-- hero section end -->
+
+    <!-- services section start -->
+    <section id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="fw-semibold fs-1">Layanan Kami</h2>
+                    <p>Rumah impian hadir menjadi solusi bagi kamu</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <div class="card border-0">
+                        <div class="card-body text-center d-flex flex-column gap-2">
+                            <div class="img-overlay d-flex justify-content-center align-items-center mx-auto">
+                                <img src="./assets/Icon-propertybaru.png" alt="" class="img-fluid">
+                            </div>
+                            <h4 class="fw-semibold">Property Baru</h4>
+                            <p>Rumah impian kini jadi kenyataan, Beli
+                                rumah bary dengan fasilitas terbaik
+                                dengan lingkungan yang nyaman.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="card border-0">
+                        <div class="card-body text-center d-flex flex-column gap-2">
+                            <div class="img-overlay d-flex justify-content-center align-items-center mx-auto">
+                                <img src="./assets/Icon Sewa.png" alt="" class="img-fluid">
+                            </div>
+                            <h4 class="fw-semibold">Sewa Rumah</h4>
+                            <p>Sewa rumah yang indah untuk keluarga
+                                anda, pilihan terbaik untuk tempat
+                                tinggal keluarga mu.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="card border-0">
+                        <div class="card-body text-center d-flex flex-column gap-2">
+                            <div class="img-overlay d-flex justify-content-center align-items-center mx-auto">
+                                <img src="./assets/Icon Beli.png" alt="" class="img-fluid">
+                            </div>
+                            <h4 class="fw-semibold">Beli Rumah</h4>
+                            <p>Beli Rumah sempurna dengan harga
+                                terbaik kualitas terjamin dari sumber
+                                terpercaya.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services section end -->
+
+    <!-- search bar section start -->
+    <section id="search">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 judul text-center text-white">
+                    <h2 class="fw-semibold fs-1">Temukan Rumah Impianmu</h2>
+                    <p class="fs-5">sekarang Anda dapat menghemat semua hal stres, waktu, dan biaya tersembunyi, dengan
+                        ratusan rumah untuk anda</p>
+                </div>
+                <div class="col-12">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="jual" data-bs-toggle="tab" data-bs-target="#jual-tab"
+                                type="button" role="tab" aria-controls="home-tab-pane"
+                                aria-selected="true">Jual</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="sewa" data-bs-toggle="tab" data-bs-target="#sewa-tab"
+                                type="button" role="tab" aria-controls="profile-tab-pane"
+                                aria-selected="false">Sewa</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="Property" data-bs-toggle="tab" data-bs-target="#property-tab"
+                                type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Property
+                                Baru</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active d-flex" id="jual-tab" role="tabpanel"
+                            aria-labelledby="jual" tabindex="0">
+                            <div class="dropdown">
+                                <button class="button dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown button
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button class="button dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown button
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control"
+                                    placeholder="cari berdasarkam lokasi, ID, Property"
+                                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="button-cari" type="button" id="button-addon2">Cari</button>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="sewa-tab" role="tabpanel" aria-labelledby="profile-tab"
+                            tabindex="0">2
+                        </div>
+                        <div class="tab-pane fade" id="property-tab" role="tabpanel" aria-labelledby="contact-tab"
+                            tabindex="0">3
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- search bar section end -->
+
+    <!-- rekomendasi rumah start -->
+    <section id="rekomen" class="rekomen">
+        <div class="container mt-5">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card border-0">
+                        <div class="p-1">
+                            <img src="./assets/Rekomendasi1.png" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-semibold fs-5">IDR.200.000.000</h5>
+                                <p class="card-text">Jl. Soekarno Hatta No.1</p>
+                                <h6>Sewa</h6>
+                            </div>
+                        </div>
+                        <div class="mt-0 bg-white container-icon d-flex justify-content-between m-0">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex gap-1 align-items-center">
+                                    <img src="./assets/Vector.svg" alt="">
+                                    <span class="mt-1" style="font-size: 14px;">3</span>
+                                </div>
+                                <p style="font-size: 12px;">Kamar Tidur</p>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <div class="d-flex gap-1 align-items-center">
+                                    <img src="./assets/fa-solid_bath.svg" alt="">
+                                    <span class="mt-1" style="font-size: 14px;">4</span>
+                                </div>
+                                <p style="font-size: 12px;">Kamar Mandi</p>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <div class="d-flex gap-1 align-items-center">
+                                    <img src="./assets/world.svg" alt="">
+                                    <span class="mt-1" style="font-size: 14px;">360m</span>
+                                </div>
+                                <p style="font-size: 12px;">Luas Rumah</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0">
+                        <div class="p-1">
+                            <img src="./assets/Rekomendasi2.png" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-semibold fs-5">IDR.200.000.000</h5>
+                                <p class="card-text">Jl. Soekarno Hatta No.1</p>
+                                <h6>Jual</h6>
+                            </div>
+                        </div>
+                        <div class="mt-0 bg-white container-icon d-flex justify-content-between">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex gap-1 align-items-center">
+                                    <img src="./assets/Vector.svg" alt="">
+                                    <span class="mt-1" style="font-size: 14px;">3</span>
+                                </div>
+                                <p style="font-size: 12px;">Kamar Tidur</p>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <div class="d-flex gap-1 align-items-center">
+                                    <img src="./assets/fa-solid_bath.svg" alt="">
+                                    <span class="mt-1" style="font-size: 14px;">4</span>
+                                </div>
+                                <p style="font-size: 12px;">Kamar Mandi</p>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <div class="d-flex gap-1 align-items-center">
+                                    <img src="./assets/world.svg" alt="">
+                                    <span class="mt-1" style="font-size: 14px;">360m</span>
+                                </div>
+                                <p style="font-size: 12px;">Luas Rumah</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0">
+                        <div class="p-1">
+                            <img src="./assets/Rekomendasi3.png" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-semibold fs-5">IDR.200.000.000</h5>
+                                <p class="card-text">Jl. Soekarno Hatta No.1</p>
+                                <h6>Property baru</h6>
+                            </div>
+                        </div>
+                        <div class="mt-0 bg-white container-icon d-flex justify-content-between">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex gap-1 align-items-center">
+                                    <img src="./assets/Vector.svg" alt="">
+                                    <span class="mt-1" style="font-size: 14px;">3</span>
+                                </div>
+                                <p style="font-size: 12px;">Kamar Tidur</p>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <div class="d-flex gap-1 align-items-center">
+                                    <img src="./assets/fa-solid_bath.svg" alt="">
+                                    <span class="mt-1" style="font-size: 14px;">4</span>
+                                </div>
+                                <p style="font-size: 12px;">Kamar Mandi</p>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <div class="d-flex gap-1 align-items-center">
+                                    <img src="./assets/world.svg" alt="">
+                                    <span class="mt-1" style="font-size: 14px;">360m</span>
+                                </div>
+                                <p style="font-size: 12px;">Luas Rumah</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0">
+                        <div class="p-1">
+                            <img src="./assets/Rekomendasi4.png" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-semibold fs-5">IDR.200.000.000</h5>
+                                <p class="card-text">Jl. Soekarno Hatta No.1</p>
+                                <h6>Sewa</h6>
+                            </div>
+                        </div>
+                        <div class="mt-0 bg-white container-icon d-flex justify-content-between">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex gap-1 align-items-center">
+                                    <img src="./assets/Vector.svg" alt="">
+                                    <span class="mt-1" style="font-size: 14px;">3</span>
+                                </div>
+                                <p style="font-size: 12px;">Kamar Tidur</p>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <div class="d-flex gap-1 align-items-center">
+                                    <img src="./assets/fa-solid_bath.svg" alt="">
+                                    <span class="mt-1" style="font-size: 14px;">4</span>
+                                </div>
+                                <p style="font-size: 12px;">Kamar Mandi</p>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <div class="d-flex gap-1 align-items-center">
+                                    <img src="./assets/world.svg" alt="">
+                                    <span class="mt-1" style="font-size: 14px;">360m</span>
+                                </div>
+                                <p style="font-size: 12px;">Luas Rumah</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0">
+                        <div class="p-1">
+                            <img src="./assets/Rekomendasi5.png" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-semibold fs-5">IDR.200.000.000</h5>
+                                <p class="card-text">Jl. Soekarno Hatta No.1</p>
+                                <h6>Sewa</h6>
+                            </div>
+                        </div>
+                        <div class="mt-0 bg-white container-icon d-flex justify-content-between">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex gap-1 align-items-center">
+                                    <img src="./assets/Vector.svg" alt="">
+                                    <span class="mt-1" style="font-size: 14px;">3</span>
+                                </div>
+                                <p style="font-size: 12px;">Kamar Tidur</p>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <div class="d-flex gap-1 align-items-center">
+                                    <img src="./assets/fa-solid_bath.svg" alt="">
+                                    <span class="mt-1" style="font-size: 14px;">4</span>
+                                </div>
+                                <p style="font-size: 12px;">Kamar Mandi</p>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <div class="d-flex gap-1 align-items-center">
+                                    <img src="./assets/world.svg" alt="">
+                                    <span class="mt-1" style="font-size: 14px;">360m</span>
+                                </div>
+                                <p style="font-size: 12px;">Luas Rumah</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0">
+                        <div class="p-1">
+                            <img src="./assets/Rekomendasi6.png" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-semibold fs-5">IDR.200.000.000</h5>
+                                <p class="card-text">Jl. Soekarno Hatta No.1</p>
+                                <h6>Sewa</h6>
+                            </div>
+                        </div>
+                        <div class="mt-0 bg-white container-icon d-flex justify-content-between">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex gap-1 align-items-center">
+                                    <img src="./assets/Vector.svg" alt="">
+                                    <span class="mt-1" style="font-size: 14px;">3</span>
+                                </div>
+                                <p style="font-size: 12px;">Kamar Tidur</p>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <div class="d-flex gap-1 align-items-center">
+                                    <img src="./assets/fa-solid_bath.svg" alt="">
+                                    <span class="mt-1" style="font-size: 14px;">4</span>
+                                </div>
+                                <p style="font-size: 12px;">Kamar Mandi</p>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <div class="d-flex gap-1 align-items-center">
+                                    <img src="./assets/world.svg" alt="">
+                                    <span class="mt-1" style="font-size: 14px;">360m</span>
+                                </div>
+                                <p style="font-size: 12px;">Luas Rumah</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- rekomendasi rumah end -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
